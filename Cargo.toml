@@ -1,0 +1,17 @@
+[package]
+name = "boxed-slice-vec"
+version = "0.1.0"
+edition = "2021"
+authors = ["Icxolu"]
+license = "MIT OR Apache-2.0"
+
+description = "A vector with fixed capacity, backed by an boxed slice. Its capacity is allocated at runtime, but it never grows."
+
+keywords = ["vector", "data-structure"]
+categories = ["data-structures"]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dev-dependencies]
+matches = "0.1.10"
